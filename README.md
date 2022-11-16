@@ -1,6 +1,6 @@
 
 # GET all
-' curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo '
+'curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo'
 
 # POST 
 curl -X POST https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo \\--data-raw '{ "title": "task ", "description": "Create todo API " }'
