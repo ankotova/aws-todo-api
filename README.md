@@ -17,6 +17,6 @@ Here: ID = 7e6638e2-e38a-4ada-a9d8-e77de38e2d54
 
 
 # DELETE by ID
-ccurl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/7e6638e2-e38a-4ada-a9d8-e77de38e2d54 
+curl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/7e6638e2-e38a-4ada-a9d8-e77de38e2d54 
 
 Here: ID = 7e6638e2-e38a-4ada-a9d8-e77de38e2d54
