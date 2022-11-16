@@ -1,12 +1,12 @@
 
 # GET all
-``` curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo ```
+```curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo```
 
 # POST 
-e.g. ``` curl -X POST https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo \--data-raw '{ "title": "task ", "description": "Create todo API " }' ```
+e.g. ```curl -X POST https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo \--data-raw '{ "title": "task ", "description": "Create todo API " }'```
 
 # GET by ID
-e.g. ``` curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/796aefbb-1088-42d0-a987-7a8156204853 ```
+e.g. ```curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/796aefbb-1088-42d0-a987-7a8156204853```
 
 Here: ID = 796aefbb-1088-42d0-a987-7a8156204853
 
@@ -17,6 +17,6 @@ Here: ID = 796aefbb-1088-42d0-a987-7a8156204853
 
 
 # DELETE by ID
-e.g. ``` curl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/796aefbb-1088-42d0-a987-7a8156204853 ```
+e.g. ```curl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/796aefbb-1088-42d0-a987-7a8156204853```
 
 Here: ID = 796aefbb-1088-42d0-a987-7a8156204853
