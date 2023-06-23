@@ -1,6 +1,6 @@
 Hello, my name is Anastasiia 
 
-lambda_function.py is the code currently running on AWS Lambda. To test the functionality you can run examples from below on the terminal
+lambda_function.py is the code currently running on AWS Lambda. To test the functionality you can run examples from below in the terminal
 
 # GET all
 ```
