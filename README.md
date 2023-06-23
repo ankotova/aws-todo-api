@@ -34,6 +34,9 @@ Here: ID = 3e58beaf-3cb1-402a-991a-8e31670207cc
 
 # DELETE by ID
 Delete a ToDo task using its ID
-e.g. ```curl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/3e58beaf-3cb1-402a-991a-8e31670207cc```
+e.g. 
+```
+curl -X DELETE https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/3e58beaf-3cb1-402a-991a-8e31670207cc
+```
 
 Here: ID = 3e58beaf-3cb1-402a-991a-8e31670207cc
