@@ -12,7 +12,7 @@ curl https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo
 Create a ToDo task
 e.g. 
 ```
-curl -X POST https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo \--data-raw '{ "title": "task ", "description": "Create todo API " }'
+curl -X POST https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo \--data-raw '{ "title": "Here is your task title", "description": "Here is your task description" }'
 ```
 
 # GET by ID
@@ -27,7 +27,7 @@ Here: ID = 3e58beaf-3cb1-402a-991a-8e31670207cc
 Update already existing ToDo task using its ID
 e.g. 
 ```
-curl -X PUT https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/3e58beaf-3cb1-402a-991a-8e31670207cc \--data-raw '{ "title": "task ", "description": "Create ToDo API "}'
+curl -X PUT https://jtnw4u2muj.execute-api.eu-central-1.amazonaws.com/v1/todo/3e58beaf-3cb1-402a-991a-8e31670207cc \--data-raw '{ "title": "The new title is here ", "description": "The new description is here "}'
 ```
 Here: ID = 3e58beaf-3cb1-402a-991a-8e31670207cc
 
